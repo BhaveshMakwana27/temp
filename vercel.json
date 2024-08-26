@@ -7,8 +7,8 @@
         ],   
     "routes": [
             {
-                "'sre": "/(.*)",
-                "dest": "temp.py"
+                "src": "/(.*)",
+                "dest": "/temp.py"
             }
         ]
 }
