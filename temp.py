@@ -13,7 +13,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-@app.get('')
+@app.get('/')
 def index():
 
     return True
