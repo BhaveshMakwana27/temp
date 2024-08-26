@@ -1,4 +1,5 @@
 from fastapi import FastAPI,Form
+from fastapi.responses import FileResponse
 from enum import Enum
 from pydantic import BaseModel
 
@@ -16,4 +17,4 @@ app = FastAPI()
 @app.get('/')
 def index():
 
-    return {"true":'hi'}
+    return FileResponse("image-512x512.jpg")
