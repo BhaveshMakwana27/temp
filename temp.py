@@ -18,3 +18,8 @@ app = FastAPI()
 def index():
 
     return FileResponse("image-512x512.jpg")
+
+@app.get('/img')
+def index():
+
+    return FileResponse("image-512x512.jpg")
