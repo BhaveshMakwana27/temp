@@ -16,4 +16,4 @@ app = FastAPI()
 @app.get('/')
 def index():
 
-    return True
+    return {"true":'hi'}
